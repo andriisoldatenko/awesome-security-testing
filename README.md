@@ -1,11 +1,18 @@
 # Awesome Security testing collection
 A collection of awesome Security testing resources
 
+### Index
+* [tools](#tools)
+* [books](#books)
+* [Awesome Lists](#awesome lists)
+* [Contribution](#Contribution)
+
 >[Security testing](http://en.wikipedia.org/wiki/Security_testing) is a process intended to reveal flaws in the security mechanisms of an information system that protect data and maintain functionality as intended. Due to the logical limitations of security testing, passing security testing is not an indication that no flaws exist or that the system adequately satisfies the security requirements.
 
 >Typical security requirements may include specific elements of confidentiality, integrity, authentication, availability, authorization and non-repudiation. Actual security requirements tested depend on the security requirements implemented by the system. Security testing as a term has a number of different meanings and can be completed in a number of different ways. As such a Security Taxonomy helps us to understand these different approaches and meanings by providing a base level to work from.
 
-[Nmap](https://nmap.org/) - ("Network Mapper") is a free and open source (license) utility for network discovery and security auditing. 
+### Tools
+* [Nmap](https://nmap.org/) - ("Network Mapper") is a free and open source (license) utility for network discovery and security auditing. 
 Typical example:
 ```bash
 $ nmap -A -T4 scanme.nmap.org
@@ -35,6 +42,22 @@ Service detection performed. Please report any incorrect results at http://nmap.
 Nmap done: 1 IP address (1 host up) scanned in 38.83 seconds
 ```
 
+### Books
+* [Nmap Network Scanning: The Official Nmap Project Guide to Network Discovery and Security Scanning Paperback](http://www.amazon.com/dp/0979958717) - by Gordon Fyodor Lyon - 2009
+
+
+### Awesome Lists
+* [Awesome Penetration Testing](https://github.com/enaqx/awesome-pentest)
+* [Python tools for penetration testers](https://github.com/dloss/python-pentest-tools)
+
+### Contribution
+Your contributions and suggestions are welcome.
+
+### License
+
+[![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)
 
 
 
