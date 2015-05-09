@@ -1,8 +1,9 @@
-# Awesome Security testing collection
+# Awesome Security testing collection with examples
 A collection of awesome Security testing resources
 
 ### Index
 * [tools](#tools)
+* [Resources & databases](#Resources & databases)
 * [books](#books)
 * [Awesome Lists](#awesome lists)
 * [Contribution](#Contribution)
@@ -41,9 +42,31 @@ SF:(NULL,29,"SSH-2\.0-OpenSSH_6\.6\.1p1\x20Ubuntu-2ubuntu2\r\n");
 Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 38.83 seconds
 ```
+* [tcpdump](http://www.tcpdump.org/) - dump traffic on a network.
+```bash
+$ tcpdump -i en0
+0:01:18.029826 IP 192.168.0.103.57509 > bud02s22-in-f3.1e100.net.https: Flags [.], ack 155103, win 4094, options [nop,nop,TS val 353264978 ecr 2720369936], length 0
+20:01:18.029826 IP 192.168.0.103.57509 > bud02s22-in-f3.1e100.net.https: Flags [.], ack 155199, win 4091, options [nop,nop,TS val 353264978 ecr 2720369961], length 0
+20:01:18.029874 IP 192.168.0.103.57509 > bud02s22-in-f3.1e100.net.https: Flags [.], ack 155280, win 4093, options [nop,nop,TS val 353264978 ecr 2720369961], length 0
+20:01:18.029875 IP 192.168.0.103.57509 > bud02s22-in-f3.1e100.net.https: Flags [.], ack 155326, win 4092, options [nop,nop,TS val 353264978 ecr 2720369961], length 0
+20:01:18.030298 IP 192.168.0.103.57509 > bud02s22-in-f3.1e100.net.https: Flags [P.], seq 3219:3265, ack 155326, win 4096, options [nop,nop,TS val 353264978 ecr 2720369961], length 46
+```
+* [arp-scan](http://linux.die.net/man/1/arp-scan) - sends ARP packets to hosts on the local network and displays any responses that are received.
+```bash
+$ arp-scan --localnet
+```
+
+* [Burp Suite](http://portswigger.net/burp/)
+* [Google dorks](https://github.com/JohnTroony/Google-dorks)
+
+### Resources & databases
+* [Offensive Security Exploit Database Archive](https://www.exploit-db.com/)
 
 ### Books
 * [Nmap Network Scanning: The Official Nmap Project Guide to Network Discovery and Security Scanning Paperback](http://www.amazon.com/dp/0979958717) - by Gordon Fyodor Lyon - 2009
+
+### Contests
+* [PHDays](http://www.phdays.ru/) - Positive Hack Days. More info at [link](https://xakep.ru/2015/05/08/hack-quests-phdays-v/)
 
 
 ### Awesome Lists
