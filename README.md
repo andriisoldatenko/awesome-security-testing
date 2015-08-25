@@ -1,4 +1,5 @@
-# Awesome Security testing collection with examples
+# Awesome Security testing</a> [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 A collection of awesome Security testing resources
 
 ### Index
@@ -58,6 +59,8 @@ $ arp-scan --localnet
 
 * [Burp Suite](http://portswigger.net/burp/)
 * [Google dorks](https://github.com/JohnTroony/Google-dorks)
+* [Retire.js](http://bekk.github.io/retire.js/) - There is a plethora of JavaScript libraries for use on the web and in node.js apps out there. This greatly simplifies, but we need to stay update on security fixes. "Using Components with Known Vulnerabilities" is now a part of the OWASP Top 10 and insecure can libraries can pose a huge risk for your webapp. The goal of Retire.js is to help you detect use of version with known vulnerabilities.
+
 
 ### Resources & databases
 * [Offensive Security Exploit Database Archive](https://www.exploit-db.com/)
@@ -72,6 +75,10 @@ $ arp-scan --localnet
 ### Awesome Lists
 * [Awesome Penetration Testing](https://github.com/enaqx/awesome-pentest)
 * [Python tools for penetration testers](https://github.com/dloss/python-pentest-tools)
+
+
+### Useful links
+* [Programmer Competency Matrix](http://sijinjoseph.com/programmer-competency-matrix/)
 
 ### Contribution
 Your contributions and suggestions are welcome.
